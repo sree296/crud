@@ -11,8 +11,7 @@ import {Employee} from '../models/employee.model';
 })
 export class CreateEmployeeComponent implements OnInit {
 
-isActive = true;  
-department = "3";
+//department = "3";
 previewPhoto = false;
 
 employee: Employee = {
@@ -36,7 +35,8 @@ togglePhotoPreview(){
     {id:1, name:"Help Desk"},
     {id:2, name:"HR"},
     {id:3, name:"IT"},
-    {id:4, name:"Payroll"}
+    {id:4, name:"Payroll"},
+    {id:5, name:"Admin"}
   ];
   constructor() {
     this.datePickerConfig = Object.assign({},
