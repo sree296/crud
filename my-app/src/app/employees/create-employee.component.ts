@@ -11,7 +11,6 @@ import {Employee} from '../models/employee.model';
 })
 export class CreateEmployeeComponent implements OnInit {
 
-gender = "male";
 isActive = true;  
 department = "3";
 previewPhoto = false;
