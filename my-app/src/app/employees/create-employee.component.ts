@@ -22,7 +22,7 @@ employee: Employee = {
     phoneNumber: null,
     email: null,
     dateOfBirth: null,
-    department: "-1",
+    department: "select",
     isActive: null,
     photoPath: null
 };
