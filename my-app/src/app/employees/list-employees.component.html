@@ -1,5 +1,10 @@
-<div class="container">
+<!-- <div class="container">
   <div *ngFor="let employee of employees">
         <app-display-employee [employee]="employee"></app-display-employee>
   </div>
+</div> -->
+<div class="container">
+  <button (click)="nextEmployee()" class="btn btn-primary">View Next Employee</button>
+    <br /><br />
+  <app-display-employee [employee]="employeeToDisplay"></app-display-employee>
 </div>
